@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  width: 75%;
+  margin: 50px auto;
+}
+
+.form-input-container {
+  margin: 20px 0;
+}
+
+.form-input, .form-input:hover, form-input:focus {
+  width: 100%;
+  padding: 5px 0;
+  border: none !important;
+  border-bottom: 1px solid #ccc !important;
+  box-shadow: 10px 10px 10px #fff inset;
+  outline: none !important
+}
+
+button {
+  background: #57ae21;
+  color: #fff;
+  padding: 0.6rem 2rem;
+  border: none;
+  border-radius: 5px;
+  float: right;
+}
